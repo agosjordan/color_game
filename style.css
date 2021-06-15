@@ -1,0 +1,66 @@
+.square{
+    float: left;
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    background-color: rgb(241, 202, 111);
+    margin: 10px;
+    border-radius: 20px;
+    transition: 1s;   
+}
+#game{
+    width: 600px;
+    margin: 0 auto;
+    padding: 34px;
+}
+body{
+    background-color: #314c5f;
+    margin: 0px;
+}
+h1{
+    color: white;
+    text-align: center;
+    background-color: #81b1ea;
+    height: 110px;
+    font-size: 48px;
+    margin: 0px;
+    text-transform: uppercase;
+    padding-bottom: 69px;   
+}
+#message{
+    color: black;
+    text-align: center;
+    display: inline-block;
+    width: 22%; 
+    font-family: 'Krona One', sans-serif;   
+}
+#stripe{
+    background-color: white;
+    height: 30px;
+    text-align: center;
+}
+.selected{
+    background-color: #81b1ea;
+}
+button{
+    border: none;
+    background-color: white;
+    height: 100%;
+    display: inline;
+    letter-spacing: 1px;
+    color: #066ae4;    
+    font-family: 'Krona One', sans-serif;
+    transition: 1s;   
+}
+button:hover{
+    background-color: #81b1ea;
+}
+@media(max-width: 700px)  {
+    #game{
+        padding: 22px 0px 0px 78px;
+        width: 332px;
+    }
+    #stripe{
+        height: 65px;
+    }
+}

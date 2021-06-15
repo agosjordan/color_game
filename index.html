@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Game</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+    <h1>The Great <br> Guessing Game<br><span id="colorDisplay"></span> </h1>
+    
+    <div id="stripe">
+
+        <button id="reset">NEW COLORS</button> 
+        <span id="message"></span>
+        <button class="difficulty-selector">EASY</button>
+        <button class="difficulty-selector selected">HARD</button>
+        
+    </div>
+
+    <div id="game" class="container ">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
